@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="description" content="Personal website of Ajdin Hedzic">
+	<meta charset="utf-8">
+	<title>Ajdin Hedzic</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container" >
+		<div class="col-sm-12 vertical-center">
+			<div class="row">
+				<div class="col-sm-8 col-sm-offset-2 text-center" >
+					<h1>zipstatic demo</h1>
+				</div>
+			</div>
+			<div class="col-md-4 col-md-offset-4">
+			<form>
+					<div class="form-group">
+						<label for"zip">Zip code:</label> 
+						<input type="text" class="form-control" id="zip">
+					</div>
+					<div class="form-group" hidden>
+						<label for"city">City:</label> 
+						<input type="text" class="form-control" id="city">
+					</div>
+					<div class="form-group" hidden>
+						<label for"county">County:</label> 
+						<input type="text" class="form-control" id="county">
+					</div>
+					<div class="form-group" hidden>
+						<label for"state">State:</label> 
+						<input type="text" class="form-control" id="state">
+					</div>
+					<div class="form-group" hidden>
+						<label for"stateShort">State Short:</label> 
+						<input type="text" class="form-control" id="stateShort">
+					</div>
+					<div class="form-group" hidden>
+						<label class="country">Country:</label> 
+						<input type="text" class="form-control" id="country">
+					</div>
+			</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/zipstatic.js"></script>
+</body>
+</html>
