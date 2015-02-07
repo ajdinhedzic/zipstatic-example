@@ -1,0 +1,1 @@
+# zipstatic-example
